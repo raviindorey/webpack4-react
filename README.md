@@ -1,6 +1,6 @@
-#Webpack-React
+# Webpack-React
 
-##This is boilerplate for a react application with webpack4.
+## This is boilerplate for a react application with webpack4.
 This is what I think is minimal substitution for `create-react-app`.
 
 **Note:**
