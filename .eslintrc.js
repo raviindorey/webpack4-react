@@ -15,7 +15,7 @@ module.exports = {
         "jsx-a11y/anchor-is-valid": "off",
         "jsx-a11y/media-has-caption": "off",
         "react/no-array-index-key": "off",
-        "linebreak-style": ["error", "windows"],
+        "linebreak-style": ["error", "unix"],
     },
 };
 
@@ -43,3 +43,6 @@ module.exports = {
 
 // react/no-array-index-key:
 //// index is manipulated before being used as a key, hence not a valid warning.
+
+// linebreak-style:
+//// choose between "unix" and "windows" depending upon your OS. ref: https://eslint.org/docs/rules/linebreak-style
